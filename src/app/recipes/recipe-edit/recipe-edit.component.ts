@@ -57,7 +57,7 @@ export class RecipeEditComponent implements OnInit {
         Validators.required,
         Validators.pattern(/^[1-9]+[0-9]*$/)
       ]),
-    })
+    });
   }
 
   onSubmit() {
